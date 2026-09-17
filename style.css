@@ -3,36 +3,47 @@
     background-color: #1F2937;
     color: white;
     height: 400px;
+   
     
     flex-direction: column;
-    border: 1px solid black; 
+
+    border: 1px solid blue; 
     
 }
 
 
 
 .header-link  {
-    
+
     display: flex;
-    justify-content: right;
-    width: 100%; 
+    justify-content: flex-end;
+    border: 1px solid black;
+    
+    width: 90%;
+    gap: 10px;
+    
+    
     padding: 5px;
-    flex: 1;
-    
+
 
     
-    
-    
-}
-    
+    }
 
-.header div{
-    display: flex;
+    #link-1, #link-2, #link-3 {
+
+        border: green 1px solid;
+        
+        width: 60px;
+
+        
+        text-decoration: none;
+        color: yellow;
+
     
-    color: white;
-    
-    width: 43%;
-} 
+    }    
+
+
+
 
 
 
